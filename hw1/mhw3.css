@@ -1,0 +1,780 @@
+body{
+
+    background-color: #f5ebdc;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+  }
+  
+
+
+  .logo img {
+    max-height: 60%;
+    max-width: 60%;
+  }
+  
+  .menu div {
+    width: 30px;
+    height: 3px;
+    background-color: #502314;
+    margin: 10px 0;
+  }
+  
+  .menu {
+    margin-right: 2%;
+  }
+
+  button {
+   margin-left: 15px;
+   margin-top: 15px;
+  }
+
+#offerta {
+    display: flex;
+   border: 1184px  ;
+   height: 511.7px;
+   background-color: #502314;
+   width: 100%;
+   border-radius: 20px 20px 20px 20px;
+
+   }
+
+
+#offerta img {
+
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    height: 100%;
+    width: 100%;
+}
+
+
+#offerta h1{
+
+height: 70%;
+width: 50%;
+
+}
+#offerta p{
+font: 24px system-ui;
+color: #f5ebdc;
+    }
+
+    #offerta strong{
+        font: 40px Georgia, serif ;
+        color: #FF8732;
+            }
+
+.pulsante{
+    border-radius: 50px;
+background-color:  #D62300;
+height: 17%;
+width: 18%;
+
+}
+
+.pulsante p{
+
+    color:#f5ebdc;
+font: 24px system-ui;
+}
+
+#app{
+
+    display: flex;
+    color: #212529;
+    font: 14px Georgia, serif;
+    padding: 20px 0px;
+    flex-direction: column;
+   
+}
+
+
+#barra{
+    display: flex;
+    color: #212529;
+    font: 14px Georgia, serif;
+
+}
+
+.scarica-app{
+
+    display: flex;
+    color: #212529;
+    font: 14px Georgia, serif;
+background-color: #D62300;
+width: 60%;
+border-radius: 20px 20px 20px 20px;
+margin-top: 40px;
+margin-bottom: 10px;
+margin-left: 40px;
+height:  100%;
+}
+
+h5{
+    display: flex;
+    flex-direction: column;
+margin-top: 7%;
+}
+.scarica-app strong{ 
+    font: 40px Georgia, serif;
+    color: white;
+}
+
+.scarica-app p{ 
+    font: 20px system-ui;
+    color: white;
+}
+
+
+.scarica-app img{
+
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    height: 100%;
+    width: 70%;
+
+}
+
+
+
+#i-nostri-prodotti{
+
+    display: flex;
+    flex-direction: column;
+    background-color: #e8dfcf;
+}
+
+.barra1{
+    display: flex;
+padding:0px 0px 0px 45px;
+}
+
+
+.barra2{
+    display: flex;
+   padding:0px 0px 0px 20px;
+}
+
+
+.barra3{
+    display: flex;
+    border: 700px;
+width: 100%;
+height: 100%;
+justify-content: center;
+ align-items: center;
+}
+
+
+.panino{
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    margin: 0px 25px;
+    margin-top: 20px;
+    height: 90%;
+    width: 20%;
+    position: relative; 
+    text-align: center;
+}
+
+.panino img{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    transition: transform 0.3s; 
+}
+
+.panino:hover img {
+    transform: scale(1.2); 
+}
+
+.panino2 img {
+    width: 120%; 
+    height: 120%;
+}
+
+
+.panino strong{
+
+font: 20px black ;
+}
+
+
+#cocktail{
+
+    display: flex;
+    flex-direction: column;
+    background-color: #ffcc55;
+    margin-top: 5%;
+}
+
+.titolo{
+    display: flex;
+padding:0px 0px 0px 45px;
+}
+
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+}
+.bevanda {
+    flex: 0 0 calc(20% - 20px); 
+    margin: 10px;
+    text-align: center;
+}
+.bevanda img {
+    max-width: 100%; 
+    height: auto; 
+}
+.bevanda h3{
+    font-size: 18px;
+}
+
+.titolo strong{
+    font-size: 30px;
+}
+
+
+.barra1 strong{
+
+    font: 40px Georgia, serif;;
+    color: #FF8732;
+  margin-right: 10px;
+  
+}
+.barra2 p{
+
+    font: 14px system-ui;
+    color: #502314;
+ margin-left: 20px;
+    }
+
+
+.Best-Seller{
+
+border: 2px solid #502314;
+border-radius: 20px ;
+background-color: #e8dfcf;
+width: 100px;
+height: 40px;
+margin-right: 5px;
+}
+
+.Italian-Kings{
+
+    border: 2px solid #502314;
+    border-radius: 20px ;
+    background-color: #e8dfcf;
+    width: 110px;
+    height: 40px;
+    margin-right: 5px;
+    }
+
+    .Manzo{
+
+        border: 2px solid #502314;
+        border-radius: 20px ;
+        background-color: #e8dfcf;
+        width: 80px;
+        height: 40px;
+        margin-right: 5px;
+        }
+
+       
+
+  #novità{
+
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+    background-color:#f5ebdc; 
+    }
+
+
+     .barra1n{
+      display: flex;
+   width: 100%;
+ 
+     }
+
+     .barra1n strong{
+
+        font: 40px Georgia, serif;
+        color: #FF8732;
+        padding: 10px 0px;
+        margin-left: 20px;
+    }
+
+                  
+     .barra2n{
+     display: flex;
+        width: 100%;
+        height: 500px;
+    }
+
+.novv{
+margin: 0px 20px;
+display: flex;
+flex-direction: column;
+background-color: white;
+border-radius: 20px 20px 20px 20px;
+width: 30%;
+height: 75%;
+margin-right: 20px;
+
+}
+.novm{
+
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    width: 30%;
+    height: 86%;
+    }
+    .novv strong{
+        font: 20px Georgia, serif;
+        color: #212529;
+    margin-left: 20px;
+    }
+
+.novm strong{
+    font: 20px Georgia, serif;
+    color: #212529;
+margin-left: 20px;
+}
+.novm p{
+    font: 14px system-ui;
+    color: #212529;
+    margin-left: 20px;
+}
+
+.novv img{
+width: 100%;
+height: 100%;
+border-radius: 20px 20px 0px 0px;
+}
+
+
+.novm img{
+width: 100%;
+    height: 60%;
+    border-radius: 20px 20px 0px 0px;
+    }
+
+#luogo{
+    display: flex;
+    font: 14px Georgia, serif;
+padding: 20px 45px;
+border: 1200px  ;
+height: 400px;
+background-color: #502314;
+border-radius: 20px 20px 20px 20px;
+margin: 30px 60px;
+}
+
+
+.pulsante1{
+    border-radius: 50px;
+    background-color:  #D62300;
+    height: 10%;
+    width: 10%;
+    margin: 350px 350px;
+    }
+    
+    .pulsante p{
+        color: white;
+        margin-left: 30px;
+    }
+
+#luogo img{
+
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    height: 100%;
+    width: 100%;
+
+}
+
+#finale{
+
+    display: flex;
+    font: 14px Georgia, serif;
+background-color: #502314;
+border: 1200px  ;
+height: 300px;
+width: 100%;
+flex-direction: column;
+
+}
+
+#arancione{
+    display: flex;
+    font: 14px Georgia, serif;
+width: 100%;
+height: 10%;
+background-color:  #FF8732;
+
+}
+
+#rosso{
+    display: flex;
+    font: 14px Georgia, serif;
+width: 100%;
+height: 10%;
+background-color: #D62300;
+
+}
+
+#marrone{
+    display: flex;
+    font: 14px Georgia, serif;
+width: 100%;
+height: 100%;
+background-color: #502314;
+
+}
+
+.blocco1{
+width: 20%;
+height: 50%;
+margin: 20px 20px;
+}
+
+.blocco2{
+width: 20%;
+height: 50%;
+margin: 20px 0px;
+margin-left: 100px;
+ }
+
+ .blocco3{
+ width: 20%;
+height: 50%;
+margin: 20px 0px;    
+  }
+
+
+.parola{
+width: 30%;
+height: 50%;
+margin: 50px 20px;
+}
+
+
+
+#bordo img{
+
+border-left: 1px solid white;
+height: 60%;
+margin: 70px 50px 70px 0px;
+
+}
+
+.bottone {
+  border-radius: 50px;
+  background-color: #D62300;
+  height: 50px;
+  width: 40%;
+  cursor: pointer; 
+  text-align: center;
+  margin-top: 20px;
+}
+
+    h2{
+font: 24px FLAME;
+color: #FF8732;
+    }
+
+    .blocco1 p{
+
+        font: 15px system-ui;
+        color: #f5ebdc;
+    }
+
+.blocco2 p{
+
+    font: 14px system-ui;
+    color: #f5ebdc;
+
+}
+        
+
+.blocco3 p{
+
+    font: 14px system-ui;
+    color: #f5ebdc;
+
+}
+
+h3{
+    font: 35px Georgia, serif;
+    color: #FF8732;
+    
+        }
+
+
+.parola p{
+
+    font: 18px system-ui;
+    color : #e8dfcf;
+
+}
+
+.bottone p{
+
+    font: 18px system-ui;
+color: white;
+padding: 10px;
+
+}
+
+  
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+  .video-player {
+    margin-right: 40px; 
+  }
+
+  .menu-content {
+    display: none;
+    position: absolute;
+    top: 80px; 
+    background-color:  #dd8f08;
+    padding: 30px;
+    border: 1px solid black;
+    right: 0;
+  }
+  
+  .menu-content p {
+    margin: 20px 0;
+  }
+
+  #mapContainer {
+  
+    display:none;
+     position:relative;
+     width:90%; 
+     min-width:290px; 
+     height:600px;
+  margin-left: 5%;
+  margin-bottom: 20px;
+}
+
+.customInfobox {
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  max-width: 200px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size:12px;
+  pointer-events:auto !important;
+}
+
+.customInfobox .title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+a.customInfoboxCloseButton:link, a.customInfoboxCloseButton:visited {
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: 0px;
+  right:10px;
+  font-family: sans-serif;
+  font-weight:bold;
+  font-size:14px;
+}
+
+
+
+  @media only screen and (max-width: 600px) {
+    
+    .header {
+      height: 80px;
+    }
+
+    button {
+      margin-left: 15px;
+      margin-top: 5px;
+     }
+
+    .container {
+      width: 80%;
+      margin-left: 10px;
+    }
+
+    .logo{
+      margin-right: 100px;
+    }
+  
+    .logo img {
+      max-height: 60%;
+      max-width: 60%;
+    }
+  
+    .menu {
+      margin-right: 5%;
+    }
+  
+    #offerta {
+      height: auto;
+      flex-direction: column;
+    }
+  
+    #offerta h1 {
+      width: 90%;
+      margin: auto;
+      text-align: center;
+    }
+ 
+.pulsante {
+    height: auto;
+    width: 35%;
+    margin: 20px auto; 
+    background-color: #D62300; 
+    border-radius: 20px; 
+}
+
+.pulsante p {
+    color: white;
+    line-height: 50px; 
+    margin: 0; 
+    padding: 0; 
+}
+
+    #app {
+        padding: 20px 0px; 
+      }
+  
+    .scarica-app img {
+      width: 100%;
+    }
+  
+    #i-nostri-prodotti {
+      padding: 10px 0px;
+    }
+  
+    .barra3 {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .panino {
+      width: 45%;
+      margin: 10px;
+    }
+  
+    .barra1 strong {
+      font-size: 40px;
+    }
+  
+    .barra2 p {
+      font-size: 12px;
+   margin-right: 20px;
+    }
+  
+    .Best-Seller,
+    .Italian-Kings,
+    .Manzo {
+      margin-right: 10px;
+    width: fit-content;
+    }
+  
+    .novv,
+    .novm {
+      width: 100%;
+      margin: 0px auto;
+    }
+  
+    .novv img,
+    .novm img {
+      width: 100%;
+      height: auto;
+    }
+  
+    #luogo {
+      flex-direction: column;
+      height: auto;
+      margin: 10px;
+    }
+  
+    .parola {
+      width: 90%;
+      margin: 20px auto;
+      text-align: center;
+    }
+  
+    #bordo img {
+      display: none;
+    }
+  
+    .bottone {
+      width: 50%;
+      margin: auto;
+    }
+  
+    #finale {
+      height: auto;
+    }
+  
+    .blocco1,
+    .blocco2,
+    .blocco3 {
+      width: 90%;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    .blocco1 p,
+    .blocco2 p,
+    .blocco3 p {
+      font-size: 12px;
+    }
+  
+    h3 {
+      font-size: 25px;
+    }
+  
+    .parola p {
+      font-size: 14px;
+    }
+  
+    .bottone p {
+      font-size: 20px;
+    }
+
+    .video-container {
+        display: block;
+       margin-left: 10%;
+        margin-bottom: 40px; 
+
+    }
+    
+    .video-player {
+        width: 90%; 
+        margin-right: 0; 
+    }
+    
+
+  }
+  

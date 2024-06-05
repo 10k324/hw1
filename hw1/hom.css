@@ -1,0 +1,124 @@
+body {
+    font-family:  sans-serif;
+    background-color: #eedd89;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    background-color: #47270e;
+    height: 100px;
+    position: relative; 
+
+}
+
+#nav-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.left-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.right-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.left-icon img {
+    height: 80px;
+    width: 80px;
+}
+
+.right-icon img {
+    height: 80px;
+    width: 80px;
+}
+
+
+.barra1, .barra3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center; 
+}
+
+.barra1 h1, .barra3 h3 {
+    width: 100%;
+    font-size: 30px;
+}
+
+
+strong {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+.panino, .birra {
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.panino img, .birra img {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px; 
+    transition: transform 0.3s;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.panino:hover img,  .birra:hover img {
+    transform: scale(1.1); 
+}
+
+.panino button, .birra button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.panino button:hover, .birra button:hover {
+    background-color: #0056b3;
+}
+
+
+
+.welcome-msg {
+    text-align: center;  
+    font-size: 30px; 
+    color: whitesmoke; 
+    margin: 0 auto; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
